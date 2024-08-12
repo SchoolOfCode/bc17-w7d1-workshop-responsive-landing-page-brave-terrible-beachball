@@ -1,3 +1,18 @@
 body {
     font-family: "Aleo";
 }
+
+h1{
+    font-size: 1rem;    
+}
+
+.call-to-action{
+    background-color: orange;
+}
+
+.contact-number{
+    color:white;
+}
+
+.hero-1{
+  }
