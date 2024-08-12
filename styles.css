@@ -1,13 +1,28 @@
+@media screen and (max-width: 375px) {
+
 body {
     font-family: "Aleo";
+}
+
+.wrapper {
+    padding: 1rem, 0.5rem;
 }
 
 h1{
     font-size: 1rem;    
 }
 
+header {
+    padding-top: 1rem;
+    padding-left: 0.75rem;
+}
+
 .call-to-action{
     background-color: orange;
+}
+
+img {
+    width: 375px;
 }
 
 .contact-number{
@@ -16,3 +31,5 @@ h1{
 
 .hero-1{
   }
+
+}
