@@ -1,4 +1,4 @@
-@media screen and (max-width: 375px) {
+/* @media screen and (max-width: 375px) { */
 
 body {
     font-family: "Aleo";
@@ -18,9 +18,21 @@ header {
 }
 
 .call-to-action{
-    background-color: orange;
+    background-color: rgba(255, 149, 0, 0.877);
+    padding: 0.3rem 1rem;
+
 }
 
+.call-to-action h2 {
+    font-size: 35px;
+}
+
+
+.how-it-works h2 {
+    padding-top: 2rem;
+    font-size: 35px;
+    font-weight: 400;
+}
 img {
     width: 375px;
 }
@@ -29,7 +41,13 @@ img {
     color:white;
 }
 
-.hero-1{
-  }
 
+.how-it-works {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 }
+/* .hero-1{
+  } */
+
+/* } */
